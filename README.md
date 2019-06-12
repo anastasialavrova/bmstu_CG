@@ -20,3 +20,23 @@
 [**Лабораторная работа №5**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_5)
 
 Алгоритм закраски (растровая развертка сплошных областей): по рёбрам
+
+[**Лабораторная работа №6**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_6)
+
+Алгоритм закраски (с затравкой)
+
+[**Лабораторная работа №7**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_7)
+
+Алгоритм отсечения отрезков прямоугольником: простой алгоритм
+
+[**Лабораторная работа №8**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_8)
+
+Алгоритм отсечения отрезка выпуклым многоугольником Кириуса-Бека
+
+[**Лабораторная работа №9**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_9)
+
+Алгоритм отсечения невыпуклого многоугольника выпуклым многоугольником Сазерленда-Ходжмена
+
+[**Лабораторная работа №10**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_10)
+
+Алгоритм отображения объемной поверхности (Алгоритм "плавающего" горизонта)
