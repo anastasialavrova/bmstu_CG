@@ -40,3 +40,8 @@
 [**Лабораторная работа №10**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_10)
 
 Алгоритм отображения объемной поверхности (Алгоритм "плавающего" горизонта)
+
+
+
+
+Warning! Некоторые лабораторные работы взяты у [MightGainer](https://github.com/MightGainer). Спасибо ему за это :)
