@@ -8,3 +8,15 @@
 
 [**Лабораторная работа №2**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_2)
 ![alt text](https://pp.userapi.com/c849536/v849536840/172ede/vWaH8XxWy9g.jpg)
+
+[**Лабораторная работа №3**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_3)
+
+Построение отрезков: ЦДА, Брезенхем (int), Брезенхем (float), Брезенхем с устранением ступенчатости, алгоритм Ву + анализ времени и ступеначатости
+
+[**Лабораторная работа №4**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_4)
+
+Построение окружности и эллипса: параметрическое, каноническое, Брезенхем, метод средней точки
+
+[**Лабораторная работа №5**](https://github.com/anastasialavrova/bmstu_CG/tree/master/lab_5)
+
+Алгоритм закраски (растровая развертка сплошных областей): по рёбрам
