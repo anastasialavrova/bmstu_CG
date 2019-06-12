@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1227</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>995</width>
+    <height>634</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>KG-7</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="mainview">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>681</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>600</width>
+      <height>602</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>210</y>
+      <width>339</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>339</width>
+      <height>400</height>
+     </size>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>715</x>
+      <y>136</y>
+      <width>481</width>
+      <height>155</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Отрезок</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>X1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="inp_x1"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Y1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Y2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="inp_x2"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="inp_y2"/>
+     </item>
+     <item row="3" column="1" colspan="3">
+      <widget class="QPushButton" name="but_add_line">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Добавить отрезок</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>X2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="inp_y1"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>710</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="inp_x_right"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="inp_y_down"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Yн:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="inp_y_up"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLineEdit" name="inp_x_left"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="but_cut">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>490</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Отсечь</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_clear">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>570</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Очистить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_choose_cutter">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>412</y>
+      <width>315</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Добавить отсекатель</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>10</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Xп:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_add_cutter">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>730</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить отсекатель</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>720</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Xл:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>690</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yв:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inp_x1</tabstop>
+  <tabstop>inp_y1</tabstop>
+  <tabstop>inp_x2</tabstop>
+  <tabstop>inp_y2</tabstop>
+  <tabstop>but_add_line</tabstop>
+  <tabstop>inp_x_left</tabstop>
+  <tabstop>inp_y_up</tabstop>
+  <tabstop>inp_x_right</tabstop>
+  <tabstop>inp_y_down</tabstop>
+  <tabstop>mainview</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
